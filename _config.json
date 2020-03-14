@@ -23,7 +23,7 @@
   "whitelist": [],
   "plugins": [],
   "excerpt_separator": "\\n\\n",
-  "baseurl": "https://Turpin-HS-Computer-Science.github.io",
+  "baseurl": "https://turpin-hs-computer-science.github.io/lab/",
   "show_dir_listing": false,
   "permalink": "date",
   "url": "",
