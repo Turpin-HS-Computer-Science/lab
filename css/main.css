@@ -33,9 +33,7 @@ p.small {
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  display: inline-block;
 }
 
 hr {
