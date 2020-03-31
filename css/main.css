@@ -1,6 +1,6 @@
-.active {
-  	cursor: default;
-  	text-decoration: none;
+a {
+	cursor: default;
+	text-decoration: none;
 }
 
 body {
@@ -20,12 +20,23 @@ h1 {
 
 h2 {
 	font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
-    	color: #aaa;
+  color: #aaa;
 }
 
-text.small {
+p.small {
+  all: unset;
 	color: #bbb;
 	font-size: 14px;
 	line-height: 1.5;
-	//display: block;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+hr {
+  width: 100%;
+  margin-left: 0;
 }
