@@ -10,11 +10,11 @@
 
 <script>
 	$(document).ready(function(){
-		$.getJSON("https://api.github.com/repos/Turpin-HS-Computer-Science/Turpin-HS-Computer-Science.github.io/contents/up", function(result) {
+		$.getJSON("https://api.github.com/repos/Turpin-HS-Computer-Science/lab/contents/up", function(result) {
 			$.each(result, function(i, item){
 				var $path_rest = item.path.replace(item.name, "")   ;
 				if (item.size < 1100000) {
-					$.getJSON("https://api.github.com/repos/Turpin-HS-Computer-Science/Turpin-HS-Computer-Science.github.io/contents/" + item.path, function(f_result) {
+					$.getJSON("https://api.github.com/repos/Turpin-HS-Computer-Science/lab/contents/" + item.path, function(f_result) {
 
 						var $file_base64 = f_result.content.replace("\n", "");
 						console.log(f_result.name);
@@ -45,7 +45,7 @@
 
 <h1>The upload directory.</h1>
 <noscript>
-  <a href="https://github.com/Turpin-HS-Computer-Science/Turpin-HS-Computer-Science.github.io/tree/master/up">Browse … </a>
+  <a href="https://github.com/Turpin-HS-Computer-Science/lab/tree/master/up">Browse … </a>
 <!-- <br> -->
 </noscript>
 <!-- <button type="button">List files  … </button> -->
